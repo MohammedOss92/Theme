@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Customize the theme -->
+
+    <!-- First define a custom ActionBar color -->
+
+    <style name="BrownActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/bar_brown</item>
+        <item name="android:textColor">#ff0d</item>
+    </style>
+
+    <style name="GrayActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/bar_gray</item>
+    </style>
+
+    <style name="HoloLightCustom" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/bgcolor</item>
+        <item name="android:colorBackground">@color/bgcolor</item>
+        <item name="android:actionBarStyle">@style/BrownActionBar</item>
+        <item name="android:textColor">@color/buttontextcolor</item>
+    </style>
+
+    <style name="LightCustom" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="HoloCustom" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/bgcolor2</item>
+        <item name="android:colorBackground">@color/bgcolor2</item>
+        <item name="android:actionBarStyle">@style/GrayActionBar</item>
+        <item name="android:textColor">@color/mainTextColor</item>
+    </style>
+
+    <style name="DarkCustom" parent="Theme.AppCompat.DayNight">
+    </style>
+
+    <style name="MyDialogLight" parent="Theme.AppCompat.Light.Dialog.Alert">
+        </style>
+
+    <style name="MyDialogDark" parent="Theme.AppCompat.Dialog.Alert">
+        </style>
+    <style name="AppToolbarSearchView" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="queryHint"></item>
+    </style>
+
+    <style name="CustomButton" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>

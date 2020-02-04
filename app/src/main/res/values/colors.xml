@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffc107</color>
+    <color name="colorPrimaryDark">#795548</color>
+    <color name="colorAccent">#FFc107</color>
+
+    <color name="bgcolor">#ffffff</color>
+    <color name="bgcolor2">#b6b6b6</color>
+    <color name="buttontextcolor">#212121</color>
+    <color name="titleColor">#b6b6b6</color>
+    <color name="dialogTextColor">#b6b6b6</color>
+    <color name="mainTextColor">#ffffff</color>
+    <color name="bar_brown">#ffc107</color>
+    <color name="bar_gray">#727272</color>
+    <color name="dialog_brown">#d7ccc8</color>
+</resources>
